@@ -90,7 +90,7 @@ class Calculator:
                         self.history.append(f"{num1} / {num2} = {result}")
                 except ValueError:
                     print("Invalid number. Please enter numeric values only.")
-                    self.history.append("Invalid numeric input for subtraction.")
+                    self.history.append("Invalid numeric input for division.")
 
             elif operation == 5:
                 if len(self.history) == 0:
